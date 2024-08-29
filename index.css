@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url("https://raw.githubusercontent.com/mcoyuncutoplulugu/turkoyunnet/main/mot1.png");
+    background-size: cover;
+}
+
+.anamerkez{
+    background: rgb(25, 25, 25);
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.baslikowoteslimat{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    text-shadow: 0px 0px 10px #ffffff7a;
+}
+
+.owoteslimform{
+    width: 100%;
+    height: auto;
+}
+
+.owoteslimlabel{
+    color: white;
+    font-size: 18px;
+}
+
+.forminputlarim{
+    border-radius: 10px;
+    background: rgb(35, 35, 35);
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 400px;
+    margin-top: 10px;
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.forumgonderowoteslimclass{
+    border: none;
+    outline: none;
+    background: rgb(35, 35, 35);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.549);
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.forumgonderowoteslimclass:hover{
+    scale: 1.1;
+    filter: brightness(110%);
+}
+
+.koddeger{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.girilenkoddeger{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 25px;
+    background: rgb(35, 35, 35);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 13px;
+    border: 1px solid rgb(2, 255, 2);
+}
+
+.owocashresim{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    background: url("../img/owocow.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.dcsunucuurl{
+    color: white;
+}
+
+.gorunmezinput{
+    display: none;
+}
+
+.adimsayac{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.546);
+    font-size: 12px;
+}
+
+.kategorisecim{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kategorisecimyazi{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 0px 0px 10px #ffffff87;
+}
+
+.kutucuks{
+    width: 200px;
+    height: 200px;
+    background: rgb(32, 32, 32);
+    margin: 10px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+    text-shadow: 0px 0px 10px white;
+    cursor: pointer;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.kutucuksalici:hover{
+    scale: 1.1;
+    border-color: rgb(0, 255, 0);
+}
+
+.kutucukssatici:hover{
+    scale: 1.1;
+    border-color: rgb(255, 0, 0);
+}
+
+.indexa{
+    text-decoration: none;
+}
